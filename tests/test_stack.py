@@ -24,6 +24,7 @@ def test_stack2():
     stack.pop()
     assert stack.pop() == "one"
 
+#на пустоту
 def test_emptiness():
     stack = []
     assert not stack
